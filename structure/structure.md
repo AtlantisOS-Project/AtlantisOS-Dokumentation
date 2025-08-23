@@ -30,6 +30,7 @@
 - main configfile for `atl` → `/atlantis/atl/atl.conf`
 - `atl` App-Whiteliste → standard tools and some system apps → `/atlantis/atl/app/system-whitelist.conf`, `/atlantis/atl/app/system-blacklist.conf`
 - Container name: **`atl-app`**
+- modified `/etc/bash.bashrc`, with `bashrc_extension.sh`
 
 #### Filesystem
 - `/etc` → RW → Symlink: `/atlantis/etc`

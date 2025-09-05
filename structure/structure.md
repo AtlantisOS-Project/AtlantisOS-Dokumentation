@@ -36,3 +36,12 @@
 - `/etc` → RW → Symlink: `/atlantis/etc`
 - `/var` → RW → Symlink: `/atlantis/var`
 - `/home` → RW → Symlink: `/atlantis/home`
+
+#### Updater 
+- Working dir: `/atlantis/updater/`
+- Download target: `/tmp/atlantis-updater/`
+- Updater config: `/atlantis/updater/config/`
+- Dir as backup system-parts: 
+    * `/etc` → `/atlantis/updater/backup`
+    * `/usr/share/application` → `/atlantis/updater/backup`
+ 
